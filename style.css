@@ -15,7 +15,7 @@ body {
 
 /* Header */
 header {
-  background: lavender;
+  background: black;
   color: white;
   padding: 1rem;
 }
@@ -23,12 +23,14 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 header ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
