@@ -1,0 +1,55 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: lightblue;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: lavender;
+  color: white;
+  padding: 1rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project {
+  padding: 10px;
+  margin: 10px 0;
+  background: #eee;
+  border-radius: 5px;
+}
