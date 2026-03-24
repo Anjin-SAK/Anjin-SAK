@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Control</title>
+</head>
+<body>
+
+<h2>ESP32 LED Control (Adafruit MQTT)</h2>
+
+<button onclick="sendMessage('ON')">ON</button>
+<button onclick="sendMessage('OFF')">OFF</button>
+
+<p>Status: <span id="status">Disconnected</span></p>
+
+<!-- MQTT Library -->
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+<!-- Your JS file -->
+<script src="app.js"></script>
+
+</body>
+</html>
